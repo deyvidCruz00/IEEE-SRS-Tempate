@@ -60,6 +60,7 @@ Identify the product whose software requirements are specified in this document,
 
 ### 1.2 Document Conventions
 Describe any standards or typographical conventions that were followed when writing this SRS, such as fonts or highlighting that have special significance. For example, state whether priorities  for higher-level requirements are assumed to be inherited by detailed requirements, or whether every requirement statement is to have its own priority.
+
 ### 1.3 Intended Audience and Reading Suggestions
 Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers. Describe what the rest of this SRS contains and how it is organized. Suggest a sequence for reading the document, beginning with the overview sections and proceeding through the sections that are most pertinent to each reader type.
 ### 1.4 Product Scope
