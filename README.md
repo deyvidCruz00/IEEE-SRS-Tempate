@@ -1,12 +1,12 @@
-# IEEE-Tempate
+# IEEE-Tempate (And Example for Requirements Class)
 IEEE System Requirements Specification Template
 
 # Software Requirements Specification
 ## For  <project name>
-Version 1.0 approved
-Prepared by <author>
-<organization>
-<date created>
+Version 1.0 (In dessing)
+Prepared by <Alex Hernandez, Santiago Orjuela, Jhon Camargo>
+<UPTC>
+<11-09-2023>
 
 Table of Contents
 =================
@@ -72,12 +72,16 @@ List any other documents or Web addresses to which this SRS refers. These may in
 ### 2.1 Product Perspective
 Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.
 ### 2.2 Product Functions
+## :octocat: Fernando Bohorquez Parra :octocat:
 Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.
 ### 2.3 User Classes and Characteristics
+## :octocat: Brayan Fabian Borda Quemba :octocat:
 Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.
 ### 2.4 Operating Environment
+## :octocat: Deyvid Fernando Cruz Molano :octocat:
 Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.
 ### 2.5 Design and Implementation Constraints
+## :octocat: Juan Esteban Gonzalez Bermudez :octocat:
 Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software).
 ### 2.6 User Documentation
 List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.
@@ -85,6 +89,7 @@ List the user documentation components (such as user manuals, on-line help, and 
 List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
 ## External Interface Requirements
 ### 3.1 User Interfaces
+## :octocat: Carlos Alfredo Manrique Cruz :octocat:
 Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.
 ### 3.2 Hardware Interfaces
 Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.
@@ -101,6 +106,18 @@ Don’t really say “System Feature 1.” State the feature name in just a few 
 4.1.2   Stimulus/Response Sequences
  List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
 4.1.3   Functional Requirements
+## :octocat: Gabriel Esteban Niño Avella :octocat:
+1. 
+## :octocat: Julian Camilo Reyes Uribe :octocat:
+2.
+## :octocat: Juan Sebastián Rodríguez Mateus :octocat:
+3.
+## :octocat: Norbey Esteban Rojas Becerra :octocat:
+4.
+## :octocat: David Leonardo Rojas León :octocat:
+5. 
+
+ 
  Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.
  
  Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.
@@ -111,8 +128,13 @@ Don’t really say “System Feature 1.” State the feature name in just a few 
 ### 5.1 Performance Requirements
 If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.
 ### 5.2 Safety Requirements
+## :octocat: Diego Alejandro Rubiano Buitrago :octocat:
 Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.
 ### 5.3 Security Requirements
+## :octocat: Manuel Fernando Silva Acero :octocat:
+1.
+## :octocat: Edward Geovanny Sosa Amaya :octocat:
+2.
 Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.
 ### 5.4 Software Quality Attributes
 Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.
