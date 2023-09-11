@@ -89,7 +89,6 @@ List the user documentation components (such as user manuals, on-line help, and 
 List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
 ## External Interface Requirements
 ### 3.1 User Interfaces
-## :octocat: Carlos Alfredo Manrique Cruz :octocat:
 Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.
 ### 3.2 Hardware Interfaces
 Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.
@@ -129,6 +128,7 @@ Don’t really say “System Feature 1.” State the feature name in just a few 
 If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.
 ### 5.2 Safety Requirements
 ## :octocat: Diego Alejandro Rubiano Buitrago :octocat:
+## :octocat: Carlos Alfredo Manrique Cruz :octocat:
 Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.
 ### 5.3 Security Requirements
 ## :octocat: Manuel Fernando Silva Acero :octocat:
